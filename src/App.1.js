@@ -33,10 +33,10 @@ export function App() {
       <header className="App-header">
         <img src="Octocat.png" className="App-logo" alt="logo" />
         <form>
-        <input type="text" name={name} value={name} onChange={setNew} />
+        <input className='form' type="text" name={name} value={name} onChange={setNew} />
         <p>{button}</p>
 
-        <button onClick={setAnother}>Add</button>
+        <button onClick={setAnother} className= "header">Add</button>
         </form>
         <p>
           love <span className="heart">♥️</span> count
